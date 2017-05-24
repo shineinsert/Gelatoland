@@ -1,0 +1,3 @@
+rootProject.name = 'Gelatoland'
+
+include ':app'
