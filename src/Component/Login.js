@@ -32,14 +32,14 @@ class Login extends Component {
 	render(){
 		let {username,password} = this.state;
 		return (
-				<Image source={require('../Image/Templete.png')}
+				<Image source={require('../Image/Mook2.png')}
 					style ={Styles.imgBG}
 					>
 					<View style={Styles.overlayBg}>
 					<View>
-					<Text style={{color:'#96C7BE',fontSize:40,fontWeight:'bold',marginLeft:5,marginTop:-80}}>LOGIN</Text>
+					<Text style={{color:'#96C7BE',fontSize:40,fontWeight:'bold',marginLeft:5,marginTop:10}}>LOGIN</Text>
 					</View>
-					<View style={{marginTop:-10}}>
+					<View style={{marginTop:10}}>
 					
 						
 						<View style={{

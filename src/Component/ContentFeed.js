@@ -20,7 +20,7 @@ class ContentFeed extends Component{
 	}
 	render() {
 		return (
-			<Image source={require('../Image/Templete.png')}
+			<Image source={require('../Image/Mook.png')}
 					style ={Styles.imgBG}
 					>
 					<View>

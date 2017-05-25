@@ -53,7 +53,7 @@ class register extends Component {
 	render(){
 		let {username,password} = this.state;
 		return (
-			 	<Image source={require('../Image/Templete.png')}
+			 	<Image source={require('../Image/Mook.png')}
 					style ={Styles.imgBG}
 					>
 					<View style={Styles.overlayBg}>

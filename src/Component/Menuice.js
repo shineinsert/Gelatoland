@@ -49,7 +49,7 @@ class Menuice extends Component{
 	}
 	render() {
 		return (
-			<Image source={require('../Image/Templete.png')}
+			<Image source={require('../Image/Mook.png')}
 					style ={Styles.imgBG}
 					><View style={{flexDirection:'row',alignItems:'center'}}>
 	            <Button iconLeft light style={{ backgroundColor: '#96C7BE',alignSelf:'center',marginTop:60,marginLeft:290,height:30 }} onPress={this.checkRegister.bind(this)}>
